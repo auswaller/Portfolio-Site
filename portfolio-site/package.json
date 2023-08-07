@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://auswaller.github.io/Portfolio-Site/",
+  "homepage": "https://auswaller.github.io/Portfolio-Site/dist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
