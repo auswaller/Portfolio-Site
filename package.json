@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://auswaller.github.io/Portfolio-Site",
   "scripts": {
@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
