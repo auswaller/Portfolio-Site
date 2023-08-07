@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function BasicExample() {
+
+function PageNav() {
   return (
-    <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+    <Navbar className='navbg' data-bs-theme='dark' fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#about-me">Austin Waller</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,4 +22,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default PageNav;

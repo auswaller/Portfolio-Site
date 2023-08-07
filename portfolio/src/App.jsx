@@ -1,10 +1,9 @@
-import './App.css'
-import BasicExample from './components/Navbar';
+import PageNav from './components/PageNav';
 
 function App() {
   return (
     <>
-      <BasicExample />
+      <PageNav />
     </>
   );
 }
