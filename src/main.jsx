@@ -8,7 +8,7 @@ import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/portfolio-site/',
     element: <App />,
