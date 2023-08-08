@@ -10,7 +10,7 @@ import ResumePage from './pages/ResumePage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/portfolio-site/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
