@@ -1,4 +1,5 @@
 import PageNav from './components/PageNav';
+import PageFoot from './components/PageFoot';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <PageNav />
       <Outlet />
+      <PageFoot />
     </>
   );
 }
