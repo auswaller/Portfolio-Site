@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     basename: '/Portfolio-Site',
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />,
+    //errorElement: <ErrorPage />,
     children: [
       {
         index: true,
