@@ -8,9 +8,10 @@ import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: '/portfolio-site/',
+    basename: '/Portfolio-Site',
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
